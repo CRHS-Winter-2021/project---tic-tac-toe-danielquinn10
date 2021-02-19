@@ -218,42 +218,42 @@ def main():
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        print(startPlayer, " Wins")
+        print(startPlayer, "Wins")
         return 
     
     #Second move
     playerMove(theBoard, secondPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, secondPlayer):
-        print(secondPlayer, " Wins")
+        print(secondPlayer, "Wins")
         return
 
     #Third move
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        print(startPlayer, " Wins")
+        print(startPlayer, "Wins")
         return
 
     #Fourth move
     playerMove(theBoard, secondPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, secondPlayer):
-        print(secondPlayer, " Wins")
+        print(secondPlayer, "Wins")
         return
 
     #Fifth move
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        print(startPlayer, " Wins")
+        print(startPlayer, "Wins")
         return
 
     #Sixth move
     playerMove(theBoard, secondPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, secondPlayer):
-        print(secondPlayer, " Wins")
+        print(secondPlayer, "Wins")
         return
 
 
@@ -261,7 +261,7 @@ def main():
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        print(startPlayer, " Wins")
+        print(startPlayer, "Wins")
         return
 
 
@@ -269,7 +269,7 @@ def main():
     playerMove(theBoard, secondPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, secondPlayer):
-        print(secondPlayer, " Wins")
+        print(secondPlayer, "Wins")
         return 
 
 
@@ -277,7 +277,7 @@ def main():
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        print(startPlayer, " Wins")
+        print(startPlayer, "Wins")
         return
     if checkFull(theBoard):
         print("Draw")
