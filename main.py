@@ -218,63 +218,70 @@ def main():
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        return startPlayer + " Wins"
+        print(startPlayer, " Wins")
+        return 
     
     #Second move
     playerMove(theBoard, secondPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, secondPlayer):
-        return secondPlayer + " Wins"
+        print(secondPlayer, " Wins")
+        return
 
     #Third move
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        return startPlayer + " Wins"
+        print(startPlayer, " Wins")
+        return
 
     #Fourth move
     playerMove(theBoard, secondPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, secondPlayer):
-        return secondPlayer + " Wins"
+        print(secondPlayer, " Wins")
+        return
 
     #Fifth move
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        return startPlayer + " Wins"
+        print(startPlayer, " Wins")
+        return
 
     #Sixth move
     playerMove(theBoard, secondPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, secondPlayer):
-        return secondPlayer + " Wins"
-    if checkFull(theBoard):
-        return "Draw"
+        print(secondPlayer, " Wins")
+        return
+
 
     #Seventh move
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        return startPlayer + " Wins"
-    if checkFull(theBoard):
-        return "Draw"
+        print(startPlayer, " Wins")
+        return
+
 
     #Eighth move
     playerMove(theBoard, secondPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, secondPlayer):
-        return secondPlayer + " Wins"
-    if checkFull(theBoard):
-        return "Draw"
+        print(secondPlayer, " Wins")
+        return 
+
 
     #Ninth move
     playerMove(theBoard, startPlayer)
     printBoard(theBoard)
     if checkWin(theBoard, startPlayer):
-        return startPlayer + " Wins"
+        print(startPlayer, " Wins")
+        return
     if checkFull(theBoard):
-        return "Draw"
+        print("Draw")
+        return
 
 
 #Start function
@@ -303,6 +310,7 @@ def start():
         " ",
     ]
     main()
+    print(" ")
     startGame = input("Do you want to play again? ")
     while startGame != 'yes' and startGame != 'no':
         print("That's not an option. Please say yes or no. ")
